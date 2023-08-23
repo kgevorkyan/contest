@@ -1,0 +1,3 @@
+[submodule "example-analyzer"]
+	path = example-analyzer
+	url = ../example-analyzer.git
