@@ -1,30 +1,34 @@
 /*
- * Based on CVE-2020-12654
+ * Based on CVE-2022-0185
  */
 
+#include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
-struct S {
-  int a;
-  char b;
-};
+#define PAGE_SHIFT 12
+#define PAGE_SIZE (1ULL << PAGE_SHIFT)
 
-struct P {
-  unsigned short len;
-  char *data;
-};
+int foo(unsigned int size, const char *key) {
+  size_t len = 3;
 
-int memcopy_r(char *dst, void *src, size_t sz) {
-  // Size of 'src' is greater than size of 'dst'.
-  // Size of 'dst' is 'sizeof(struct S)'
-  memcpy(dst, src, sz); // buffer-overflow
-  return 0;
+  if (len > PAGE_SIZE - 2 - size) {
+    printf("Too large\n");
+    return -1;
+  }
+
+  // 'strlen' can't find '\0'
+  len = strlen(key); // buffer-overflow
+  return len;
 }
 
 int main() {
-  struct S str;
-  struct P param;
-  param.data = "34345438979797974945";
-  param.len = strlen(param.data);
-  memcopy_r((char *)&str, param.data, param.len);
+  unsigned int size = 4294967295;
+  char *key = malloc(10);
+  // After 'memcpy()' 'key' doesn't have a '\0' symbol
+  memcpy(key, "asddds4323", 10);
+
+  foo(size, key);
+
+  free(key);
 }

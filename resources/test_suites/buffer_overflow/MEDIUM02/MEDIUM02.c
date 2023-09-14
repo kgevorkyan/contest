@@ -7,7 +7,7 @@
 
 int foo(int *data) {
   unsigned char buffer[32 + 16];
-  // Access to buffer + 4 + data[0] is out of bounds
+  // Access to 'data' + 4 + 'data[0]' is out of bounds
   memcpy(&buffer[1], &data[1], data[0]); // buffer-overflow
 }
 

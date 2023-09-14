@@ -33,6 +33,7 @@ fail:
 
 int main() {
   cJSON *p = malloc(sizeof(cJSON));
+  p->child = NULL;
   char value = '1';
   parse_object(&p, value);
 }

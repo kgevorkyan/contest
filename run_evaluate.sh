@@ -39,7 +39,7 @@ function run_tool() {
   URL="$1"
   RUNNER="run_over_all_bc.sh"
   HASH_FOR_NAME="$(echo -n "$DATE$URL" | md5sum | cut -d ' ' -f 1)"
-  REPO_NAME="$(echo "$github_url" | awk -F'/' '{print $NF}')"
+  REPO_NAME="$(echo "$URL" | awk -F'/' '{print $NF}')"
   REPO_DIR="$REPO_NAME"_"$HASH_FOR_NAME"
   IMG_NAME="$HASH_FOR_NAME"
   C_NAME="$HASH_FOR_NAME"

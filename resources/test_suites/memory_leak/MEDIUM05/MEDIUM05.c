@@ -25,6 +25,7 @@ typedef struct streamIterator {
 void streamIteratorStart(streamIterator *si) {
   si->ri.key = malloc(sizeof(unsigned char)); // Memory allocation
   si->stack.stack = malloc(sizeof(void *));
+  si->id = 0;
 }
 
 int streamIteratorGetID(streamIterator *si, int id) {
@@ -48,6 +49,6 @@ void streamGetEdgeID(int *edge_id, int first) {
 } // Allocated memory for 'si->ri.key' is not freed
 
 int main() {
-  int edge_id;
+  int edge_id = 3;
   streamGetEdgeID(&edge_id, 6);
 }

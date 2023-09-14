@@ -1,32 +1,32 @@
 /*
- * Based on CVE-2020-12654 (fixed)
+ * Based on CVE-2022-0185 (fixed)
  */
 
+#include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
-struct S {
-  int a;
-  char b;
-};
+#define PAGE_SHIFT 12
+#define PAGE_SIZE (1ULL << PAGE_SHIFT)
 
-struct P {
-  unsigned short len;
-  char *data;
-};
+int foo(unsigned int size, const char *key) {
+  size_t len = 3;
 
-int memcopy_r(char *dst, void *src, size_t sz) {
-  if (sz > sizeof(struct S)) {
+  if (size + len + 2 > PAGE_SIZE) {
+    printf("Too large\n");
     return -1;
   }
 
-  memcpy(dst, src, sz);
-  return 0;
+  len = strlen(key);
+  return len;
 }
 
 int main() {
-  struct S str;
-  struct P param;
-  param.data = "34345438979797974945";
-  param.len = strlen(param.data);
-  memcopy_r((char *)&str, param.data, param.len);
+  unsigned int size = 4294967295;
+  char *key = malloc(10);
+  memcpy(key, "asddds432", 10);
+
+  foo(size, key);
+
+  free(key);
 }

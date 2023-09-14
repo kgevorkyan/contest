@@ -29,6 +29,7 @@ fail:
 
 int main() {
   cJSON *p = malloc(sizeof(cJSON)); // Memory allocation
+  p->child = NULL;
   char value = '1';
   parse_object(&p, value);
 } // Allocated memory for 'p' is not freed

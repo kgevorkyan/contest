@@ -23,7 +23,7 @@ int main() {
   char **c2a = (char **)c2;
   char **c2b = ++c2a; // '*c2b' is a pointer to 'c2->b'
 
-  free(*c2b); // Allocated memory for 'c2->b' is freed
+  free(*c2b); // Free allocated memory for 'c2->b'
 
   good2bad(c2);
   free(c2->a);

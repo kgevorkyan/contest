@@ -20,7 +20,7 @@
                             "uri": "test_suites/use_after_free/EASY01/EASY01.c"
                           },
                           "region": {
-                            "startLine": 15
+                            "startLine": 5
                           }
                         }
                       }
@@ -35,7 +35,7 @@
                             "uri": "test_suites/use_after_free/EASY01/EASY01.c"
                           },
                           "region": {
-                            "startLine": 18
+                            "startLine": 6
                           }
                         }
                       }
@@ -57,7 +57,7 @@
                   "uri": "test_suites/use_after_free/EASY01/EASY01.c"
                 },
                 "region": {
-                  "startLine": 18
+                  "startLine": 6
                 }
               }
             }
@@ -138,7 +138,7 @@
                             "uri": "test_suites/use_after_free/EASY03/EASY03.c"
                           },
                           "region": {
-                            "startLine": 5
+                            "startLine": 11
                           }
                         }
                       }
@@ -153,7 +153,7 @@
                             "uri": "test_suites/use_after_free/EASY03/EASY03.c"
                           },
                           "region": {
-                            "startLine": 6
+                            "startLine": 12
                           }
                         }
                       }
@@ -175,7 +175,7 @@
                   "uri": "test_suites/use_after_free/EASY03/EASY03.c"
                 },
                 "region": {
-                  "startLine": 6
+                  "startLine": 12
                 }
               }
             }
@@ -197,7 +197,7 @@
                             "uri": "test_suites/use_after_free/EASY04/EASY04.c"
                           },
                           "region": {
-                            "startLine": 20
+                            "startLine": 15
                           }
                         }
                       }
@@ -212,7 +212,7 @@
                             "uri": "test_suites/use_after_free/EASY04/EASY04.c"
                           },
                           "region": {
-                            "startLine": 22
+                            "startLine": 17
                           }
                         }
                       }
@@ -234,125 +234,7 @@
                   "uri": "test_suites/use_after_free/EASY04/EASY04.c"
                 },
                 "region": {
-                  "startLine": 22
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/use_after_free/EASY05/EASY05.c"
-                          },
-                          "region": {
-                            "startLine": 11
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/use_after_free/EASY05/EASY05.c"
-                          },
-                          "region": {
-                            "startLine": 13
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "use-after-free",
-          "ruleIndex": 0,
-          "message": {
-            "text": "EASY"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites/use_after_free/EASY05/EASY05.c"
-                },
-                "region": {
-                  "startLine": 13
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/use_after_free/EASY06/EASY06.c"
-                          },
-                          "region": {
-                            "startLine": 13
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/use_after_free/EASY06/EASY06.c"
-                          },
-                          "region": {
-                            "startLine": 15
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "use-after-free",
-          "ruleIndex": 0,
-          "message": {
-            "text": "EASY"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites/use_after_free/EASY06/EASY06.c"
-                },
-                "region": {
-                  "startLine": 15
+                  "startLine": 17
                 }
               }
             }
@@ -374,7 +256,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM01/MEDIUM01.c"
                           },
                           "region": {
-                            "startLine": 25
+                            "startLine": 23
                           }
                         }
                       }
@@ -389,7 +271,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM01/MEDIUM01.c"
                           },
                           "region": {
-                            "startLine": 12
+                            "startLine": 9
                           }
                         }
                       }
@@ -411,7 +293,7 @@
                   "uri": "test_suites/use_after_free/MEDIUM01/MEDIUM01.c"
                 },
                 "region": {
-                  "startLine": 12
+                  "startLine": 9
                 }
               }
             }
@@ -433,7 +315,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM02/MEDIUM02.c"
                           },
                           "region": {
-                            "startLine": 29
+                            "startLine": 30
                           }
                         }
                       }
@@ -448,7 +330,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM02/MEDIUM02.c"
                           },
                           "region": {
-                            "startLine": 32
+                            "startLine": 33
                           }
                         }
                       }
@@ -470,7 +352,7 @@
                   "uri": "test_suites/use_after_free/MEDIUM02/MEDIUM02.c"
                 },
                 "region": {
-                  "startLine": 32
+                  "startLine": 33
                 }
               }
             }
@@ -492,7 +374,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM03/MEDIUM03.c"
                           },
                           "region": {
-                            "startLine": 20
+                            "startLine": 22
                           }
                         }
                       }
@@ -507,7 +389,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM03/MEDIUM03.c"
                           },
                           "region": {
-                            "startLine": 8
+                            "startLine": 9
                           }
                         }
                       }
@@ -529,7 +411,7 @@
                   "uri": "test_suites/use_after_free/MEDIUM03/MEDIUM03.c"
                 },
                 "region": {
-                  "startLine": 8
+                  "startLine": 9
                 }
               }
             }
@@ -551,7 +433,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM04/MEDIUM04.c"
                           },
                           "region": {
-                            "startLine": 27
+                            "startLine": 28
                           }
                         }
                       }
@@ -566,7 +448,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM04/MEDIUM04.c"
                           },
                           "region": {
-                            "startLine": 34
+                            "startLine": 35
                           }
                         }
                       }
@@ -588,7 +470,7 @@
                   "uri": "test_suites/use_after_free/MEDIUM04/MEDIUM04.c"
                 },
                 "region": {
-                  "startLine": 34
+                  "startLine": 35
                 }
               }
             }
@@ -610,7 +492,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM05/MEDIUM05.c"
                           },
                           "region": {
-                            "startLine": 24
+                            "startLine": 26
                           }
                         }
                       }
@@ -625,7 +507,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM05/MEDIUM05.c"
                           },
                           "region": {
-                            "startLine": 8
+                            "startLine": 9
                           }
                         }
                       }
@@ -647,66 +529,7 @@
                   "uri": "test_suites/use_after_free/MEDIUM05/MEDIUM05.c"
                 },
                 "region": {
-                  "startLine": 8
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/use_after_free/MEDIUM06/MEDIUM06.c"
-                          },
-                          "region": {
-                            "startLine": 21
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/use_after_free/MEDIUM06/MEDIUM06.c"
-                          },
-                          "region": {
-                            "startLine": 8
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "use-after-free",
-          "ruleIndex": 0,
-          "message": {
-            "text": "MEDIUM"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites/use_after_free/MEDIUM06/MEDIUM06.c"
-                },
-                "region": {
-                  "startLine": 8
+                  "startLine": 9
                 }
               }
             }
@@ -728,7 +551,7 @@
                             "uri": "test_suites/use_after_free/HARD01/HARD01.c"
                           },
                           "region": {
-                            "startLine": 26
+                            "startLine": 24
                           }
                         }
                       }
@@ -743,7 +566,7 @@
                             "uri": "test_suites/use_after_free/HARD01/HARD01.c"
                           },
                           "region": {
-                            "startLine": 12
+                            "startLine": 11
                           }
                         }
                       }
@@ -765,7 +588,7 @@
                   "uri": "test_suites/use_after_free/HARD01/HARD01.c"
                 },
                 "region": {
-                  "startLine": 12
+                  "startLine": 11
                 }
               }
             }
@@ -787,7 +610,7 @@
                             "uri": "test_suites/use_after_free/HARD02/HARD02.c"
                           },
                           "region": {
-                            "startLine": 20
+                            "startLine": 21
                           }
                         }
                       }
@@ -802,7 +625,7 @@
                             "uri": "test_suites/use_after_free/HARD02/HARD02.c"
                           },
                           "region": {
-                            "startLine": 12
+                            "startLine": 11
                           }
                         }
                       }
@@ -824,7 +647,7 @@
                   "uri": "test_suites/use_after_free/HARD02/HARD02.c"
                 },
                 "region": {
-                  "startLine": 12
+                  "startLine": 11
                 }
               }
             }
@@ -846,7 +669,7 @@
                             "uri": "test_suites/use_after_free/HARD03/HARD03.c"
                           },
                           "region": {
-                            "startLine": 31
+                            "startLine": 26
                           }
                         }
                       }
@@ -859,124 +682,6 @@
                         "physicalLocation": {
                           "artifactLocation": {
                             "uri": "test_suites/use_after_free/HARD03/HARD03.c"
-                          },
-                          "region": {
-                            "startLine": 14
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "use-after-free",
-          "ruleIndex": 0,
-          "message": {
-            "text": "HARD"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites/use_after_free/HARD03/HARD03.c"
-                },
-                "region": {
-                  "startLine": 14
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/use_after_free/HARD04/HARD04.c"
-                          },
-                          "region": {
-                            "startLine": 54
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/use_after_free/HARD04/HARD04.c"
-                          },
-                          "region": {
-                            "startLine": 14
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "use-after-free",
-          "ruleIndex": 0,
-          "message": {
-            "text": "HARD"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites/use_after_free/HARD04/HARD04.c"
-                },
-                "region": {
-                  "startLine": 14
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/use_after_free/HARD05/HARD05a.c"
-                          },
-                          "region": {
-                            "startLine": 18
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/use_after_free/HARD05/HARD05a.c"
                           },
                           "region": {
                             "startLine": 9
@@ -998,7 +703,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test_suites/use_after_free/HARD05/HARD05a.c"
+                  "uri": "test_suites/use_after_free/HARD03/HARD03.c"
                 },
                 "region": {
                   "startLine": 9
@@ -1020,10 +725,10 @@
                         },
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "test_suites_sensitivities/use_after_free/ContextSensitive/ContextSensitive.c"
+                            "uri": "test_suites/memory_leak/EASY01/EASY01.c"
                           },
                           "region": {
-                            "startLine": 15
+                            "startLine": 4
                           }
                         }
                       }
@@ -1035,246 +740,10 @@
                         },
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "test_suites_sensitivities/use_after_free/ContextSensitive/ContextSensitive.c"
+                            "uri": "test_suites/memory_leak/EASY01/EASY01.c"
                           },
                           "region": {
                             "startLine": 8
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "use-after-free",
-          "ruleIndex": 0,
-          "message": {
-            "text": "ContextSensitive"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites_sensitivities/use_after_free/ContextSensitive/ContextSensitive.c"
-                },
-                "region": {
-                  "startLine": 8
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/use_after_free/FieldSensitive/FieldSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 12
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/use_after_free/FieldSensitive/FieldSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 13
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "use-after-free",
-          "ruleIndex": 0,
-          "message": {
-            "text": "FieldSensitive"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites_sensitivities/use_after_free/FieldSensitive/FieldSensitive.c"
-                },
-                "region": {
-                  "startLine": 13
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/use_after_free/FlowSensitive/FlowSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 12
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/use_after_free/FlowSensitive/FlowSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 14
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "use-after-free",
-          "ruleIndex": 0,
-          "message": {
-            "text": "FlowSensitive"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites_sensitivities/use_after_free/FlowSensitive/FlowSensitive.c"
-                },
-                "region": {
-                  "startLine": 14
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/use_after_free/PathSensitive/PathSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 16
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/use_after_free/PathSensitive/PathSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 20
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "use-after-free",
-          "ruleIndex": 0,
-          "message": {
-            "text": "PathSensitive"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites_sensitivities/use_after_free/PathSensitive/PathSensitive.c"
-                },
-                "region": {
-                  "startLine": 20
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/memory_leak/EASY01/EASY01.c"
-                          },
-                          "region": {
-                            "startLine": 21
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/memory_leak/EASY01/EASY01.c"
-                          },
-                          "region": {
-                            "startLine": 27
                           }
                         }
                       }
@@ -1296,7 +765,7 @@
                   "uri": "test_suites/memory_leak/EASY01/EASY01.c"
                 },
                 "region": {
-                  "startLine": 21
+                  "startLine": 8
                 }
               }
             }
@@ -1318,7 +787,7 @@
                             "uri": "test_suites/memory_leak/EASY02/EASY02.c"
                           },
                           "region": {
-                            "startLine": 4
+                            "startLine": 10
                           }
                         }
                       }
@@ -1333,7 +802,7 @@
                             "uri": "test_suites/memory_leak/EASY02/EASY02.c"
                           },
                           "region": {
-                            "startLine": 8
+                            "startLine": 13
                           }
                         }
                       }
@@ -1355,7 +824,7 @@
                   "uri": "test_suites/memory_leak/EASY02/EASY02.c"
                 },
                 "region": {
-                  "startLine": 4
+                  "startLine": 13
                 }
               }
             }
@@ -1377,7 +846,7 @@
                             "uri": "test_suites/memory_leak/EASY03/EASY03.c"
                           },
                           "region": {
-                            "startLine": 10
+                            "startLine": 21
                           }
                         }
                       }
@@ -1392,7 +861,7 @@
                             "uri": "test_suites/memory_leak/EASY03/EASY03.c"
                           },
                           "region": {
-                            "startLine": 12
+                            "startLine": 27
                           }
                         }
                       }
@@ -1414,7 +883,7 @@
                   "uri": "test_suites/memory_leak/EASY03/EASY03.c"
                 },
                 "region": {
-                  "startLine": 10
+                  "startLine": 27
                 }
               }
             }
@@ -1473,7 +942,7 @@
                   "uri": "test_suites/memory_leak/MEDIUM01/MEDIUM01.c"
                 },
                 "region": {
-                  "startLine": 11
+                  "startLine": 17
                 }
               }
             }
@@ -1495,7 +964,7 @@
                             "uri": "test_suites/memory_leak/MEDIUM02/MEDIUM02.c"
                           },
                           "region": {
-                            "startLine": 27
+                            "startLine": 19
                           }
                         }
                       }
@@ -1510,7 +979,7 @@
                             "uri": "test_suites/memory_leak/MEDIUM02/MEDIUM02.c"
                           },
                           "region": {
-                            "startLine": 49
+                            "startLine": 22
                           }
                         }
                       }
@@ -1532,7 +1001,7 @@
                   "uri": "test_suites/memory_leak/MEDIUM02/MEDIUM02.c"
                 },
                 "region": {
-                  "startLine": 27
+                  "startLine": 22
                 }
               }
             }
@@ -1569,7 +1038,7 @@
                             "uri": "test_suites/memory_leak/MEDIUM03/MEDIUM03.c"
                           },
                           "region": {
-                            "startLine": 34
+                            "startLine": 35
                           }
                         }
                       }
@@ -1591,7 +1060,7 @@
                   "uri": "test_suites/memory_leak/MEDIUM03/MEDIUM03.c"
                 },
                 "region": {
-                  "startLine": 31
+                  "startLine": 35
                 }
               }
             }
@@ -1613,7 +1082,7 @@
                             "uri": "test_suites/memory_leak/MEDIUM04/MEDIUM04.c"
                           },
                           "region": {
-                            "startLine": 35
+                            "startLine": 34
                           }
                         }
                       }
@@ -1628,7 +1097,7 @@
                             "uri": "test_suites/memory_leak/MEDIUM04/MEDIUM04.c"
                           },
                           "region": {
-                            "startLine": 40
+                            "startLine": 39
                           }
                         }
                       }
@@ -1650,7 +1119,7 @@
                   "uri": "test_suites/memory_leak/MEDIUM04/MEDIUM04.c"
                 },
                 "region": {
-                  "startLine": 35
+                  "startLine": 39
                 }
               }
             }
@@ -1672,7 +1141,7 @@
                             "uri": "test_suites/memory_leak/MEDIUM05/MEDIUM05.c"
                           },
                           "region": {
-                            "startLine": 34
+                            "startLine": 26
                           }
                         }
                       }
@@ -1687,7 +1156,7 @@
                             "uri": "test_suites/memory_leak/MEDIUM05/MEDIUM05.c"
                           },
                           "region": {
-                            "startLine": 52
+                            "startLine": 49
                           }
                         }
                       }
@@ -1709,125 +1178,7 @@
                   "uri": "test_suites/memory_leak/MEDIUM05/MEDIUM05.c"
                 },
                 "region": {
-                  "startLine": 34
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/memory_leak/MEDIUM06/MEDIUM06.c"
-                          },
-                          "region": {
-                            "startLine": 19
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/memory_leak/MEDIUM06/MEDIUM06.c"
-                          },
-                          "region": {
-                            "startLine": 22
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "memory-leak",
-          "ruleIndex": 1,
-          "message": {
-            "text": "MEDIUM"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites/memory_leak/MEDIUM06/MEDIUM06.c"
-                },
-                "region": {
-                  "startLine": 19
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/memory_leak/MEDIUM07/MEDIUM07.c"
-                          },
-                          "region": {
-                            "startLine": 47
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/memory_leak/MEDIUM07/MEDIUM07.c"
-                          },
-                          "region": {
-                            "startLine": 65
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "memory-leak",
-          "ruleIndex": 1,
-          "message": {
-            "text": "MEDIUM"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites/memory_leak/MEDIUM07/MEDIUM07.c"
-                },
-                "region": {
-                  "startLine": 47
+                  "startLine": 49
                 }
               }
             }
@@ -1849,7 +1200,7 @@
                             "uri": "test_suites/memory_leak/HARD01/HARD01.c"
                           },
                           "region": {
-                            "startLine": 24
+                            "startLine": 32
                           }
                         }
                       }
@@ -1864,7 +1215,7 @@
                             "uri": "test_suites/memory_leak/HARD01/HARD01.c"
                           },
                           "region": {
-                            "startLine": 31
+                            "startLine": 39
                           }
                         }
                       }
@@ -1886,7 +1237,7 @@
                   "uri": "test_suites/memory_leak/HARD01/HARD01.c"
                 },
                 "region": {
-                  "startLine": 24
+                  "startLine": 39
                 }
               }
             }
@@ -1908,7 +1259,7 @@
                             "uri": "test_suites/memory_leak/HARD02/HARD02.c"
                           },
                           "region": {
-                            "startLine": 13
+                            "startLine": 9
                           }
                         }
                       }
@@ -1923,7 +1274,7 @@
                             "uri": "test_suites/memory_leak/HARD02/HARD02.c"
                           },
                           "region": {
-                            "startLine": 22
+                            "startLine": 18
                           }
                         }
                       }
@@ -1945,7 +1296,7 @@
                   "uri": "test_suites/memory_leak/HARD02/HARD02.c"
                 },
                 "region": {
-                  "startLine": 13
+                  "startLine": 18
                 }
               }
             }
@@ -1964,10 +1315,10 @@
                         },
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "test_suites/memory_leak/HARD03/HARD03b.c"
+                            "uri": "test_suites/buffer_overflow/EASY01/EASY01.c"
                           },
                           "region": {
-                            "startLine": 6
+                            "startLine": 8
                           }
                         }
                       }
@@ -1979,305 +1330,10 @@
                         },
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "test_suites/memory_leak/HARD03/HARD03a.c"
-                          },
-                          "region": {
-                            "startLine": 30
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "memory-leak",
-          "ruleIndex": 1,
-          "message": {
-            "text": "HARD"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites/memory_leak/HARD03/HARD03b.c"
-                },
-                "region": {
-                  "startLine": 6
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/memory_leak/ContextSensitive/ContextSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 10
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/memory_leak/ContextSensitive/ContextSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 21
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "memory-leak",
-          "ruleIndex": 1,
-          "message": {
-            "text": "ContextSensitive"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites_sensitivities/memory_leak/ContextSensitive/ContextSensitive.c"
-                },
-                "region": {
-                  "startLine": 10
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/memory_leak/FieldSensitive/FieldSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 12
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/memory_leak/FieldSensitive/FieldSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 15
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "memory-leak",
-          "ruleIndex": 1,
-          "message": {
-            "text": "FieldSensitive"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites_sensitivities/memory_leak/FieldSensitive/FieldSensitive.c"
-                },
-                "region": {
-                  "startLine": 12
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/memory_leak/FlowSensitive/FlowSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 4
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/memory_leak/FlowSensitive/FlowSensitive.c"
+                            "uri": "test_suites/buffer_overflow/EASY01/EASY01.c"
                           },
                           "region": {
                             "startLine": 11
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "memory-leak",
-          "ruleIndex": 1,
-          "message": {
-            "text": "FlowSensitive"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites_sensitivities/memory_leak/FlowSensitive/FlowSensitive.c"
-                },
-                "region": {
-                  "startLine": 4
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/memory_leak/PathSensitive/PathSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 8
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/memory_leak/PathSensitive/PathSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 19
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "memory-leak",
-          "ruleIndex": 1,
-          "message": {
-            "text": "PathSensitive"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites_sensitivities/memory_leak/PathSensitive/PathSensitive.c"
-                },
-                "region": {
-                  "startLine": 8
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/buffer_overflow/EASY01/EASY01.c"
-                          },
-                          "region": {
-                            "startLine": 8
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/buffer_overflow/EASY01/EASY01.c"
-                          },
-                          "region": {
-                            "startLine": 9
                           }
                         }
                       }
@@ -2299,7 +1355,7 @@
                   "uri": "test_suites/buffer_overflow/EASY01/EASY01.c"
                 },
                 "region": {
-                  "startLine": 9
+                  "startLine": 11
                 }
               }
             }
@@ -2321,7 +1377,7 @@
                             "uri": "test_suites/buffer_overflow/EASY02/EASY02.c"
                           },
                           "region": {
-                            "startLine": 25
+                            "startLine": 5
                           }
                         }
                       }
@@ -2336,7 +1392,7 @@
                             "uri": "test_suites/buffer_overflow/EASY02/EASY02.c"
                           },
                           "region": {
-                            "startLine": 51
+                            "startLine": 7
                           }
                         }
                       }
@@ -2358,7 +1414,7 @@
                   "uri": "test_suites/buffer_overflow/EASY02/EASY02.c"
                 },
                 "region": {
-                  "startLine": 51
+                  "startLine": 7
                 }
               }
             }
@@ -2395,7 +1451,7 @@
                             "uri": "test_suites/buffer_overflow/EASY03/EASY03.c"
                           },
                           "region": {
-                            "startLine": 8
+                            "startLine": 9
                           }
                         }
                       }
@@ -2417,7 +1473,7 @@
                   "uri": "test_suites/buffer_overflow/EASY03/EASY03.c"
                 },
                 "region": {
-                  "startLine": 8
+                  "startLine": 9
                 }
               }
             }
@@ -2439,7 +1495,7 @@
                             "uri": "test_suites/buffer_overflow/MEDIUM01/MEDIUM01.c"
                           },
                           "region": {
-                            "startLine": 16
+                            "startLine": 27
                           }
                         }
                       }
@@ -2454,7 +1510,7 @@
                             "uri": "test_suites/buffer_overflow/MEDIUM01/MEDIUM01.c"
                           },
                           "region": {
-                            "startLine": 11
+                            "startLine": 21
                           }
                         }
                       }
@@ -2476,7 +1532,7 @@
                   "uri": "test_suites/buffer_overflow/MEDIUM01/MEDIUM01.c"
                 },
                 "region": {
-                  "startLine": 11
+                  "startLine": 21
                 }
               }
             }
@@ -2498,7 +1554,7 @@
                             "uri": "test_suites/buffer_overflow/MEDIUM02/MEDIUM02.c"
                           },
                           "region": {
-                            "startLine": 21
+                            "startLine": 15
                           }
                         }
                       }
@@ -2511,183 +1567,6 @@
                         "physicalLocation": {
                           "artifactLocation": {
                             "uri": "test_suites/buffer_overflow/MEDIUM02/MEDIUM02.c"
-                          },
-                          "region": {
-                            "startLine": 17
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "buffer-overflow",
-          "ruleIndex": 2,
-          "message": {
-            "text": "MEDIUM"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites/buffer_overflow/MEDIUM02/MEDIUM02.c"
-                },
-                "region": {
-                  "startLine": 17
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/buffer_overflow/MEDIUM03/MEDIUM03.c"
-                          },
-                          "region": {
-                            "startLine": 23
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/buffer_overflow/MEDIUM03/MEDIUM03.c"
-                          },
-                          "region": {
-                            "startLine": 18
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "buffer-overflow",
-          "ruleIndex": 2,
-          "message": {
-            "text": "MEDIUM"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites/buffer_overflow/MEDIUM03/MEDIUM03.c"
-                },
-                "region": {
-                  "startLine": 18
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/buffer_overflow/MEDIUM04/MEDIUM04.c"
-                          },
-                          "region": {
-                            "startLine": 18
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/buffer_overflow/MEDIUM04/MEDIUM04.c"
-                          },
-                          "region": {
-                            "startLine": 10
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "buffer-overflow",
-          "ruleIndex": 2,
-          "message": {
-            "text": "MEDIUM"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites/buffer_overflow/MEDIUM04/MEDIUM04.c"
-                },
-                "region": {
-                  "startLine": 10
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/buffer_overflow/MEDIUM05/MEDIUM05.c"
-                          },
-                          "region": {
-                            "startLine": 29
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites/buffer_overflow/MEDIUM05/MEDIUM05.c"
                           },
                           "region": {
                             "startLine": 11
@@ -2709,7 +1588,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test_suites/buffer_overflow/MEDIUM05/MEDIUM05.c"
+                  "uri": "test_suites/buffer_overflow/MEDIUM02/MEDIUM02.c"
                 },
                 "region": {
                   "startLine": 11
@@ -2731,10 +1610,10 @@
                         },
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "test_suites/buffer_overflow/MEDIUM06/MEDIUM06.c"
+                            "uri": "test_suites/buffer_overflow/MEDIUM03/MEDIUM03.c"
                           },
                           "region": {
-                            "startLine": 50
+                            "startLine": 55
                           }
                         }
                       }
@@ -2746,10 +1625,10 @@
                         },
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "test_suites/buffer_overflow/MEDIUM06/MEDIUM06.c"
+                            "uri": "test_suites/buffer_overflow/MEDIUM03/MEDIUM03.c"
                           },
                           "region": {
-                            "startLine": 54
+                            "startLine": 50
                           }
                         }
                       }
@@ -2768,10 +1647,10 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test_suites/buffer_overflow/MEDIUM06/MEDIUM06.c"
+                  "uri": "test_suites/buffer_overflow/MEDIUM03/MEDIUM03.c"
                 },
                 "region": {
-                  "startLine": 54
+                  "startLine": 50
                 }
               }
             }
@@ -2790,10 +1669,10 @@
                         },
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "test_suites/buffer_overflow/MEDIUM07/MEDIUM07.c"
+                            "uri": "test_suites/buffer_overflow/MEDIUM04/MEDIUM04.c"
                           },
                           "region": {
-                            "startLine": 26
+                            "startLine": 20
                           }
                         }
                       }
@@ -2805,10 +1684,10 @@
                         },
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "test_suites/buffer_overflow/MEDIUM07/MEDIUM07.c"
+                            "uri": "test_suites/buffer_overflow/MEDIUM04/MEDIUM04.c"
                           },
                           "region": {
-                            "startLine": 20
+                            "startLine": 12
                           }
                         }
                       }
@@ -2827,10 +1706,69 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "test_suites/buffer_overflow/MEDIUM07/MEDIUM07.c"
+                  "uri": "test_suites/buffer_overflow/MEDIUM04/MEDIUM04.c"
                 },
                 "region": {
-                  "startLine": 20
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "message": {
+                          "text": ""
+                        },
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "test_suites/buffer_overflow/MEDIUM05/MEDIUM05.c"
+                          },
+                          "region": {
+                            "startLine": 30
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": ""
+                        },
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "test_suites/buffer_overflow/MEDIUM05/MEDIUM05.c"
+                          },
+                          "region": {
+                            "startLine": 12
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "ruleId": "buffer-overflow",
+          "ruleIndex": 2,
+          "message": {
+            "text": "MEDIUM"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "test_suites/buffer_overflow/MEDIUM05/MEDIUM05.c"
+                },
+                "region": {
+                  "startLine": 12
                 }
               }
             }
@@ -2867,7 +1805,7 @@
                             "uri": "test_suites/buffer_overflow/HARD01/HARD01.c"
                           },
                           "region": {
-                            "startLine": 12
+                            "startLine": 13
                           }
                         }
                       }
@@ -2889,7 +1827,7 @@
                   "uri": "test_suites/buffer_overflow/HARD01/HARD01.c"
                 },
                 "region": {
-                  "startLine": 12
+                  "startLine": 13
                 }
               }
             }
@@ -2911,7 +1849,7 @@
                             "uri": "test_suites/buffer_overflow/HARD02/HARD02.c"
                           },
                           "region": {
-                            "startLine": 27
+                            "startLine": 9
                           }
                         }
                       }
@@ -2926,7 +1864,7 @@
                             "uri": "test_suites/buffer_overflow/HARD02/HARD02.c"
                           },
                           "region": {
-                            "startLine": 33
+                            "startLine": 16
                           }
                         }
                       }
@@ -2948,243 +1886,7 @@
                   "uri": "test_suites/buffer_overflow/HARD02/HARD02.c"
                 },
                 "region": {
-                  "startLine": 33
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/buffer_overflow/ContextSensitive/ContextSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 4
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/buffer_overflow/ContextSensitive/ContextSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 14
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "buffer-overflow",
-          "ruleIndex": 2,
-          "message": {
-            "text": "ContextSensitive"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites_sensitivities/buffer_overflow/ContextSensitive/ContextSensitive.c"
-                },
-                "region": {
-                  "startLine": 14
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/buffer_overflow/FieldSensitive/FieldSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 9
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/buffer_overflow/FieldSensitive/FieldSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 23
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "buffer-overflow",
-          "ruleIndex": 2,
-          "message": {
-            "text": "FieldSensitive"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites_sensitivities/buffer_overflow/FieldSensitive/FieldSensitive.c"
-                },
-                "region": {
-                  "startLine": 23
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/buffer_overflow/FlowSensitive/FlowSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 31
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/buffer_overflow/FlowSensitive/FlowSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 12
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "buffer-overflow",
-          "ruleIndex": 2,
-          "message": {
-            "text": "FlowSensitive"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites_sensitivities/buffer_overflow/FlowSensitive/FlowSensitive.c"
-                },
-                "region": {
-                  "startLine": 12
-                }
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/buffer_overflow/PathSensitive/PathSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 25
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": ""
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "test_suites_sensitivities/buffer_overflow/PathSensitive/PathSensitive.c"
-                          },
-                          "region": {
-                            "startLine": 55
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "ruleId": "buffer-overflow",
-          "ruleIndex": 2,
-          "message": {
-            "text": "PathSensitive"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "test_suites_sensitivities/buffer_overflow/PathSensitive/PathSensitive.c"
-                },
-                "region": {
-                  "startLine": 55
+                  "startLine": 16
                 }
               }
             }

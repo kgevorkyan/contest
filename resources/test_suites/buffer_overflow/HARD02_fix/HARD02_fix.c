@@ -2,7 +2,6 @@
  * Based on CVE-2022-26768 (fixed)
  */
 #include "HARD02_fix.h"
-#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

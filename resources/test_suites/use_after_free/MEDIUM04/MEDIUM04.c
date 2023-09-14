@@ -2,8 +2,8 @@
  *  from juliet test suite, CWE416_Use_After_Free__malloc_free_struct_43
  */
 
-#include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #include <wchar.h>
 
 struct twoIntsStruct {
@@ -25,7 +25,7 @@ static void badSource(struct twoIntsStruct **data_p) {
     }
   }
   *data_p = data;
-  free(data); // Free allocated memory
+  free(data); // Free allocated memory for 'data'
 }
 
 void bad() {

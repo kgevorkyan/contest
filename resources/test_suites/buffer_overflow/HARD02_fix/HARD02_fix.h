@@ -1,6 +1,8 @@
 #ifndef HARD02_FIX_H
 #define HARD02_FIX_H
 
+#include <stddef.h>
+
 #define EXPORT_CALL
 
 #ifndef __FILE_defined
