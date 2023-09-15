@@ -5,14 +5,13 @@ struct char2 {
   char *b;
 };
 
-int bad(struct char2 *in) {
-
+void bad(struct char2 *in) {
   if (in->b) {
     *(in->b) = 'b';
   }
 }
 
-int good2bad(struct char2 *in) {
+void good2bad(struct char2 *in) {
   struct char2 *local = in;
   if (local->a)
     *(local->a) = 'a';

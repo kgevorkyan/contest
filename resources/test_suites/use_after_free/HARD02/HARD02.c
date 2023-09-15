@@ -7,7 +7,7 @@ struct char2 {
 
 struct char2 *c2;
 
-int bad() {
+void bad() {
   *(c2->a) = 'a'; // Use after free
 }
 

@@ -315,7 +315,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM02/MEDIUM02.c"
                           },
                           "region": {
-                            "startLine": 30
+                            "startLine": 31
                           }
                         }
                       }
@@ -330,7 +330,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM02/MEDIUM02.c"
                           },
                           "region": {
-                            "startLine": 33
+                            "startLine": 34
                           }
                         }
                       }
@@ -352,7 +352,7 @@
                   "uri": "test_suites/use_after_free/MEDIUM02/MEDIUM02.c"
                 },
                 "region": {
-                  "startLine": 33
+                  "startLine": 34
                 }
               }
             }
@@ -374,7 +374,7 @@
                             "uri": "test_suites/use_after_free/MEDIUM03/MEDIUM03.c"
                           },
                           "region": {
-                            "startLine": 22
+                            "startLine": 24
                           }
                         }
                       }
@@ -551,7 +551,7 @@
                             "uri": "test_suites/use_after_free/HARD01/HARD01.c"
                           },
                           "region": {
-                            "startLine": 24
+                            "startLine": 25
                           }
                         }
                       }

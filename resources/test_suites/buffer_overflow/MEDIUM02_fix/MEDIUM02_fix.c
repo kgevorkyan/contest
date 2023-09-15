@@ -5,10 +5,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-int foo(int *data) {
+void foo(int *data) {
   unsigned char buffer[32 + 16];
   if (data[0] > 12)
-    return -1;
+    return;
 
   memcpy(&buffer[1], &data[1], data[0]);
 }

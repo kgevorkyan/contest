@@ -11,9 +11,10 @@ int bad(struct char2 *in) {
   if (in != NULL && in->a != NULL) {
     *(in->a) = 'a';
   }
+  return 0;
 }
 
-int good2bad(struct char2 *in) {
+void good2bad(struct char2 *in) {
   struct char2 *local = in;
   (*fun_ptr)(local);
 }

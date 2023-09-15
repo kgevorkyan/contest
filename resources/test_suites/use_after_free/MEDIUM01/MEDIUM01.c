@@ -9,7 +9,7 @@ void badSink(struct char2 *in) {
   *(in->a) = 'a'; // Use after free
 }
 
-int good2bad(struct char2 *in) {
+void good2bad(struct char2 *in) {
   struct char2 *local = in;
   badSink(local);
 }

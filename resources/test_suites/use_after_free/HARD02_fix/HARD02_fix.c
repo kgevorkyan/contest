@@ -7,7 +7,7 @@ struct char2 {
 
 struct char2 *c2;
 
-int bad() {
+void bad() {
   if (c2->a != NULL) {
     *(c2->a) = 'a';
   }

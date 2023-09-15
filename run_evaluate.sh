@@ -2,7 +2,7 @@
 
 DATE="$(date '+%Y_%m_%d_%H_%M_%S')"
 RESULT_DIR="$(realpath "results_dir_$DATE")"
-TESTS_BC="$RESULT_DIR/tests"
+TESTS_BC="$RESULT_DIR/test_suite_bitcode_files"
 ROOT_DIR="$(realpath "$(dirname "$(readlink -f "$0")")")"
 RESOURCES="$ROOT_DIR/resources"
 TESTS_DIR="$RESOURCES/test_suites"
@@ -92,6 +92,7 @@ function main() {
   run_tools
   python3 "$ROOT_DIR/evaluate.py" \
           --test "$TESTS_DIR" --tools-results "$RESULT_DIR" --true-reports "$TRUE_REPORTS"
+  echo "All results are stored in $RESULT_DIR"
 }
 
 main "$@"

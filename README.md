@@ -17,13 +17,19 @@ sudo /path/to/contest/install_required_packages.sh
 
 * To run this tool and get corresponding rates on our test suites
   users must set the following environment variable as an argument
-    * TOOLS_LIST - path to a simple text file where is written repository urls of static analyzers
+    * TOOLS_LIST - path to a basic text file containing repository URLs of static analyzers
 
 * Use [run_evaluate.sh](/run_evaluate.sh) script for running tool.
     * This script will iterate over all given repositories, run each tool on tests and check results
 
+```shell
+export TOOLS_LIST="/path/to/tools_list.txt"
+```
+```shell
+bash /path/to/run_evaluate.sh
+```
 ## Results
 * A special result directory will be created after running `result_dir_%Y_%m_%d_%H_%M_%S`
 * In that directory you can find 
-  * all tools with their results `tool_dir/result_sarif_files`
+  * all tools with their results `result_dir/analyzer_dir/result_sarif_files`
   * the evaluated scores on test suite in JSON and XML formatted files

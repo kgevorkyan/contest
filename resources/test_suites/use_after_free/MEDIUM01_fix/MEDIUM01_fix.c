@@ -10,7 +10,7 @@ void goodSink(struct char2 *in) {
     *(in->a) = 'a';
 }
 
-int good2bad(struct char2 *in) {
+void good2bad(struct char2 *in) {
   struct char2 *local = in;
   goodSink(local);
 }

@@ -5,11 +5,11 @@ struct char2 {
   char *b;
 };
 
-int bad(struct char2 *in) {
+void bad(struct char2 *in) {
   *(in->b) = 'b'; // Use after free
 }
 
-int good2bad(struct char2 *in) {
+void good2bad(struct char2 *in) {
   struct char2 *local = in;
   *(local->a) = 'a';
   bad(local);

@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int foo(int *data) {
+void foo(int *data) {
   unsigned char buffer[32 + 16];
   // Access to 'data' + 4 + 'data[0]' is out of bounds
   memcpy(&buffer[1], &data[1], data[0]); // buffer-overflow
