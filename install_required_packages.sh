@@ -14,8 +14,8 @@ then
   ln -snf /usr/share/zoneinfo/"$TIME_ZONE" /etc/localtime && echo "$TIME_ZONE" > /etc/timezone
 fi
 
-apt-get update && apt-get install -y clang cmake build-essential clang-format libclang-12-dev \
-                                     python3 python3-clang-12 python3-pip curl gnupg gnupg2
+apt-get update && apt-get install -y clang cmake build-essential clang-format libclang-14-dev \
+                                     python3 python3-clang-14 python3-pip curl gnupg gnupg2
 pip3 install --prefix=/usr/local libclang==14.0.1 pysarif
 
 PODMAM_SUB_REPO="/kubic:/libcontainers:/stable/xUbuntu_20.04/"
