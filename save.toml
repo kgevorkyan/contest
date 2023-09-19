@@ -3,10 +3,10 @@
     description = "Test warnings discovered by diKTat, reading expected warnings from SARIF file"
     suiteName = "Only Warnings: with SARIF format"
     expectedWarningsPattern = "// ;warn:?(.*):(\\d+):? ?(.+)?"
-    execCmd = "run_save.sh"
+    execCmd = "./run_save.sh && echo"
 
 [warn]
-    execFlags = "--reporter=sarif"
+    #execFlags = "--reporter=sarif"
     # regular expression to detect tests
     testNameRegex = ".*EASY01.c"
     actualWarningsFormat = "SARIF"
