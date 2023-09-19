@@ -1,19 +1,11 @@
 #!/bin/bash
 
 # ---------------------------------- /install_required_packages.sh -------------------------------- #
-
 set -e
 
 if [[ "$EUID" -ne 0 ]]
 then
   echo "Please run with root permission!" && exit 1
-fi
-
-ALL="all"
-if [[ "$1" -eq "$ALL" ]]
-then
-  TIME_ZONE="Asia/Yerevan"
-  ln -snf /usr/share/zoneinfo/"$TIME_ZONE" /etc/localtime && echo "$TIME_ZONE" > /etc/timezone
 fi
 
 apt-get update && apt-get install -y clang cmake build-essential clang-format libclang-14-dev \
@@ -28,9 +20,6 @@ curl -L "$PODMAN_REPO/Release.key" | apt-key add -
 apt-get update && apt-get install -y podman
 
 # -------------------------------- ./example-analyzer/scripts/build.sh ---------------------------- #
-
-ROOT_DIR="$(dirname "$(dirname "$(readlink -f "$0")")")"
-
 check_build_file() {
   BUILD_DIRECTORY="$1"
   if [ -d "$BUILD_DIRECTORY" ]; then
@@ -55,9 +44,10 @@ check_build_file "$BUILD_DIR"
 project_build "$BUILD_DIR"
 
 # ---------------------------------------------------------- #
+FILE_NAME=${1%.*}
 
-clang -g -O0 -c -emit-llvm ./resources/test_suites/memory_leak/EASY01/EASY01.c
+echo "FILE_NAME $FILE_NAME"
 
-./example-analyzer/run.sh EASY01.bc
+clang -g -O0 -c -emit-llvm ./resources/test_suites/memory_leak/EASY01/${FILE_NAME}.c
 
-opt-14 -load-pass-plugin example-analyzer/build/src/libAnalyzer.so -passes=simple -f EASY01.bc
+opt-14 -load-pass-plugin ${BUILD_DIR}/src/libAnalyzer.so -passes=simple -disable-output ${FILE_NAME}.bc
