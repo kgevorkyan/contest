@@ -37,8 +37,6 @@ project_build() {
   cd -
 }
 
-# ./example-analyzer/scripts/build.sh
-
 BUILD_DIR="./example-analyzer/build"
 check_build_file "$BUILD_DIR"
 project_build "$BUILD_DIR"
@@ -47,7 +45,5 @@ project_build "$BUILD_DIR"
 FILE_NAME=${1%.*}
 
 echo "FILE_NAME $FILE_NAME"
-
-clang -g -O0 -c -emit-llvm ./resources/test_suites/memory_leak/EASY01/${FILE_NAME}.c
 
 opt-14 -load-pass-plugin ${BUILD_DIR}/src/libAnalyzer.so -passes=simple -disable-output ${FILE_NAME}.bc
