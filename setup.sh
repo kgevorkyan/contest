@@ -42,3 +42,5 @@ project_build "$BUILD_DIR"
 BITCODE_DIR="./bc_dir"
 create_directory "$BITCODE_DIR"
 
+REPORT_DIR="./reports"
+create_directory "$REPORT_DIR"
