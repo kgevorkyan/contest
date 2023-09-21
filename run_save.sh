@@ -20,13 +20,13 @@ curl -L "$PODMAN_REPO/Release.key" | apt-key add -
 apt-get update && apt-get install -y podman
 
 # -------------------------------- ./example-analyzer/scripts/build.sh ---------------------------- #
-check_build_file() {
-  BUILD_DIRECTORY="$1"
-  if [ -d "$BUILD_DIRECTORY" ]; then
-    rm -rf "$BUILD_DIRECTORY"
+create_directory() {
+  DIRECTORY="$1"
+  if [ -d "$DIRECTORY" ]; then
+    rm -rf "$DIRECTORY"
   fi
+  mkdir -p "$DIRECTORY"
 
-  mkdir -p "$BUILD_DIRECTORY"
 }
 
 project_build() {
@@ -38,12 +38,25 @@ project_build() {
 }
 
 BUILD_DIR="./example-analyzer/build"
-check_build_file "$BUILD_DIR"
+create_directory "$BUILD_DIR"
 project_build "$BUILD_DIR"
 
 # ---------------------------------------------------------- #
-FILE_NAME=${1%.*}
+FILE_PATH=${1}
 
-echo "FILE_NAME $FILE_NAME"
+BITCODE_DIR="./bc_dir"
+create_directory "$BITCODE_DIR"
 
-opt-14 -load-pass-plugin ${BUILD_DIR}/src/libAnalyzer.so -passes=simple -disable-output ${FILE_NAME}.bc
+cd $BITCODE_DIR
+
+clang -g -O0 -c -emit-llvm ${FILE_PATH}
+
+cd -
+
+FILE_NAME=${FILE_PATH##*/}
+
+opt-14 -load-pass-plugin ${BUILD_DIR}/src/libAnalyzer.so -passes=simple -disable-output "$BITCODE_DIR/${FILE_NAME%.*}.bc"
+
+
+# run_save
+# here we will get as $1 each names
