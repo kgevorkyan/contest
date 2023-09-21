@@ -1,12 +1,13 @@
 [general]
     tags = ["warn", "sarif"]
-    description = "Test warnings discovered by diKTat, reading expected warnings from SARIF file"
+    description = "Test warnings discovered by llvm pass SimplePass"
     suiteName = "Only Warnings: with SARIF format"
     expectedWarningsPattern = "// ;warn:?(.*):(\\d+):? ?(.+)?"
     execCmd = "./run_save.sh"
     timeOutMillis = 60000
 
 [warn]
+    exactWarningsMatch = true
     # regular expression to detect tests
     testNameRegex = ".*(EASY|MEDIUM|HARD).*\\.c"
     actualWarningsFormat = "SARIF"

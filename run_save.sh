@@ -2,7 +2,6 @@
 
 set -e
 
-# ---------------------------------------------------------- #
 FILE_PATH=${1}
 
 BUILD_DIR="./example-analyzer/build"

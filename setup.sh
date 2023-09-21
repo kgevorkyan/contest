@@ -1,4 +1,4 @@
-# ---------------------------------- /install_required_packages.sh -------------------------------- #
+# ---------------------------------- install_required_packages -------------------------------- #
 set -e
 
 if [[ "$EUID" -ne 0 ]]
@@ -17,7 +17,7 @@ echo "deb $PODMAN_REPO /" | tee /etc/apt/sources.list.d/devel:kubic:libcontainer
 curl -L "$PODMAN_REPO/Release.key" | apt-key add -
 apt-get update && apt-get install -y podman
 
-# -------------------------------- ./example-analyzer/scripts/build.sh ---------------------------- #
+# ---------------------------------------- build -------------------------------------------- #
 create_directory() {
   DIRECTORY="$1"
   if [ -d "$DIRECTORY" ]; then
