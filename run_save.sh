@@ -45,7 +45,8 @@ project_build "$BUILD_DIR"
 FILE_PATH=${1}
 
 BITCODE_DIR="./bc_dir"
-create_directory "$BITCODE_DIR"
+#create_directory "$BITCODE_DIR"
+mkdir "$BITCODE_DIR"
 
 cd $BITCODE_DIR
 
@@ -56,7 +57,3 @@ cd -
 FILE_NAME=${FILE_PATH##*/}
 
 opt-14 -load-pass-plugin ${BUILD_DIR}/src/libAnalyzer.so -passes=simple -disable-output "$BITCODE_DIR/${FILE_NAME%.*}.bc"
-
-
-# run_save
-# here we will get as $1 each names

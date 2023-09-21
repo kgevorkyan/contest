@@ -8,7 +8,7 @@
 
 [warn]
     # regular expression to detect tests
-    testNameRegex = ".*EASY01.c"
+    testNameRegex = ".*(EASY|MEDIUM|HARD).*\\.c"
     actualWarningsFormat = "SARIF"
     # by default, in SARIF mode, it's supposed, that tool will print sarif report into the stdout
     # however, it also could be provided via file
