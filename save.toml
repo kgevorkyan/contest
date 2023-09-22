@@ -4,12 +4,11 @@
     suiteName = "Only Warnings: with SARIF format"
     expectedWarningsPattern = "// ;warn:?(.*):(\\d+):? ?(.+)?"
     execCmd = "./run_save.sh"
-    timeOutMillis = 60000
 
 [warn]
     exactWarningsMatch = true
     # regular expression to detect tests
-    testNameRegex = ".*(EASY|MEDIUM|HARD).*\\.c"
+    testNameRegex = ".*(EASY|MEDIUM|HARD).*\\.(c|h)"
     actualWarningsFormat = "SARIF"
     # by default, in SARIF mode, it's supposed, that tool will print sarif report into the stdout
     # however, it also could be provided via file
@@ -18,7 +17,6 @@
     lineCaptureGroupOut = 2
     columnCaptureGroupOut = 3
     messageCaptureGroupOut = 4
-    exactWarningsMatch = false
     warningTextHasColumn = true
     warningTextHasLine = true
 
